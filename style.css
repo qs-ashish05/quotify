@@ -1,0 +1,128 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: #222;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #e7e7e7;
+  }
+  
+  /* Header Styles */
+  header {
+    text-align: center;
+  }
+  header a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  header a:hover {
+    color: #fff;
+  }
+  
+  /* Utility Classes */
+  .my-transition {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .my-box-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Main Container */
+  .main-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .main-text {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Quote Box */
+  .quote-container {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .quote-content {
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #444;
+  }
+  
+  .quote-author {
+    text-align: right;
+    font-style: italic;
+    margin-top: 10px;
+    color: #777;
+  }
+  
+  /* Button */
+  .my-btn {
+    display: inline-block;
+    background: rgba(255, 84, 113, 0.998);
+    color: #222;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .my-btn:hover {
+    background: pink;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 576px) {
+    h1 {
+      font-size: 2rem;
+    }
+    .main-container {
+      padding: 30px;
+    }
+    .quote-content {
+      font-size: 1.6rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+    .main-container {
+      padding: 50px;
+    }
+    .quote-container {
+      padding: 30px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .main-container {
+      max-width: 900px;
+    }
+  }
