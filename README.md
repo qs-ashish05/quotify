@@ -24,5 +24,5 @@ Here’s a sample look of the webpage:
 - Forismatic API (https://api.forismatic.com)
 
 ## API Details
-The API used to fetch random quotes is the [Forismatic API](https://api.forismatic.com). The endpoint used is:
+The API endpoint used is:  [Forismatic API](https://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&lang=en&jsonp=?). 
 
